@@ -25,14 +25,14 @@ function App() {
           <PrivateRoute path="/dashboard">
             <Dashboard></Dashboard>
           </PrivateRoute>
-          {/* <PrivateRoute path="/allPatients">
-            <AllPatients></AllPatients>
-          </PrivateRoute> */}
           <PrivateRoute path='/addTeacher'>
             <AddTeacher></AddTeacher>
           </PrivateRoute >
           <Route path="/login">
             <Login></Login>
+          </Route>
+           <Route path="/home">
+            <Home></Home>
           </Route>
           <Route exact path="/">
             <Home></Home>
